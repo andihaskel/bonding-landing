@@ -1,0 +1,106 @@
+.whatWeDo {
+  margin: 110px 0 90px;
+
+  .title-container {
+    margin-bottom: 60px;
+  }
+  h3,
+  h2 {
+    font-family: "DisplaySoraBold";
+    line-height: 1.4;
+    font-size: 48px;
+  }
+
+  p {
+    font-family: "DisplayDMSansNormal";
+    line-height: 1.6;
+    font-size: 16px;
+    // color: #424255;
+    max-width: 45%;
+    margin: 10px auto;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  .service-box {
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 2px 8px 24px 0 rgba(1, 17, 50, 0.08);
+
+    .img-container {
+      position: relative;
+      min-height: 112px;
+      margin-bottom: 20px;
+
+      // &::before {
+      //   position: absolute;
+      //   content: "";
+      //   border-radius: 50%;
+      //   top: -8px;
+      //   left: 38%;
+      //   width: 112px;
+      //   height: 112px;
+      //   background-color: #F5D8FF;
+      //   display: inline-flex;
+      //   align-items: center;
+      //   justify-content: center;
+      //   transform: translate(0,0);
+      //   z-index: -1;
+      // }
+
+      .first-img {
+        width: 112px;
+      }
+      .second-img {
+        position: relative;
+        width: 112px;
+        // top: -7px;
+        // left: -5px;
+      }
+    }
+
+    p {
+      max-width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin: 60px 0;
+
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    p {
+      max-width: 100%;
+    }
+    .service-box {
+      padding: 40px 24px;
+    }
+    // .service-box .img-container::before {
+    //   left: 32%;
+    // }
+  }
+
+  // @media (min-width: 429px) and (max-width: 600px) {
+  //   .service-box .img-container::before {
+  //     left: 39% !important;
+  //   }
+  // }
+
+  // @media (min-width: 601px) and (max-width: 768px) {
+  //   .service-box .img-container::before {
+  //     left: 42% !important;
+  //   }
+  // }
+
+  // @media (min-width: 769px) and (max-width: 991px) {
+  //   .service-box .img-container::before {
+  //     left: 43% !important;
+  //   }
+  // }
+}

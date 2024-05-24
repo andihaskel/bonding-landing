@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "DisplayDMSansNormal";
+  src: local("DisplayDMSansNormal"),
+    url("../fonts/DMSans/DMSans-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DisplayDMSansMedium";
+  src: local("DisplayDMSansMedium"),
+    url("../fonts/DMSans/DMSans-Medium.ttf")
+      format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "DisplayDMSansBold";
+  src: local("DisplayDMSansBold"),
+    url("../fonts/DMSans/DMSans-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "DisplaySoraNormal";
+  src: local("DisplaySoraNormal"),
+    url("../fonts/Sora/Sora-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "DisplaySoraSemiBold";
+  src: local("DisplaySoraSemiBold"),
+    url("../fonts/Sora/Sora-SemiBold.ttf")
+      format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "DisplaySoraBold";
+  src: local("DisplaySoraBold"),
+    url("../fonts/Sora/Sora-Bold.ttf")
+      format("truetype");
+  font-weight: 700;
+}

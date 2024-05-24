@@ -1,0 +1,132 @@
+.contact {
+  padding: 120px 0;
+  background-color: #F7F4FB;
+
+  .title-container {
+    margin-bottom: 50px;
+
+    a {
+      font-size: 16px;
+
+      &::after {
+        position: relative;
+      }
+    }
+  }
+
+  h3,
+  h2 {
+    font-family: "DisplaySoraBold";
+    line-height: 1.4;
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-family: "DisplayDMSansNormal";
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 15px 0 25px;
+  }
+
+  a {
+    font-family: "DisplaySoraSemiBold";
+    line-height: 1.2;
+    font-size: 14px;
+    color: #8920EC;
+
+    &::after {
+      position: absolute;
+      content: '';
+      background-image: url('/arrow_right.svg');
+      background-repeat: no-repeat;
+      top: 5px;
+      right: -32px;
+      width: 17px;
+      height: 15px;
+      transition: all 0.5s ease-out;
+    }
+
+    &:hover,
+    &:focus {
+      &::after {
+        right: -40px;
+        transition: all 0.3s ease-out;
+      }
+    }
+  }
+
+  .schedule_a_call-container {
+    background-color: #E9E1F4;
+    border-radius: 16px;
+    padding: 24px;
+  }
+
+  .form_container {
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #fff;
+
+    .btn {
+      font-family: "DisplaySoraSemiBold";
+      line-height: 1.2;
+      font-size: 14px;
+      background-color: #8920EC;
+      padding: 15px 37px 15px;
+      border: 1px solid #8920EC;
+      border-radius: 8px;
+      min-width: 166px;
+      color: #fff;
+  
+      &:hover,
+      &:focus {
+        background-color: #fff;
+        color: #8920EC;
+        border-color: #8920EC;
+      }
+    }
+  }
+
+  label {
+    font-family: "DisplaySoraBold";
+    line-height: 1.4;
+    font-size: 18px;
+
+    .asterisk {
+      color: #FEA4D5;
+    }
+  }
+
+  .form-control {
+    font-family: "DisplayDMSansNormal";
+    line-height: 1.6;
+    font-size: 16px;
+    color: #424255;
+    padding: 20px;
+    background-color: #F7F4FB;
+    border: 1px solid #F7F4FB;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 992px) {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 40px;
+    }
+    .title-container {
+      margin-bottom: 30px;
+    }
+    .form_container {
+      padding: 24px;
+    }
+    .form_container {
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}

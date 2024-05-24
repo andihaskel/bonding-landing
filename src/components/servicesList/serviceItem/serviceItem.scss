@@ -1,0 +1,62 @@
+.serviceItem {
+
+  .wrapper {
+    border-radius: 12px;
+    // transition: all 0.5s ease-out;
+
+    &:hover,
+    &:focus {
+      .inner-wrapper {
+        background-color: #8920EC;
+        color: #fff;
+        transition: all 0.5s ease-out;
+      }
+    }
+  }
+  .serviceItem-cover {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+
+  .inner-wrapper {
+    padding: 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #F7F4FB;
+  }
+
+  .serviceItem_author {
+    h6 {
+      font-family: "DisplayDMSansBold";
+      line-height: 1.4;
+      font-size: 16px;
+      margin: 0;
+    }
+
+    span {
+      margin: 0 10px;
+    }
+
+  }
+
+  h3 {
+    font-family: "DisplaySoraBold";
+    line-height: 1.4;
+    font-size: 24px;
+    margin: 15px 0;
+  }
+
+  p {
+    font-family: "DisplayDMSansNormal";
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .inner-wrapper {
+      background-color: #8920EC;
+      color: #fff;
+    }
+  }
+}

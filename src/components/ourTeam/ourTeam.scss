@@ -1,0 +1,110 @@
+.ourTeam {
+  margin: 165px 0 120px;
+
+  h2 {
+    font-family: "DisplaySoraBold";
+    line-height: 1.4;
+    font-size: 48px;
+    margin-bottom: 70px;
+  }
+
+  .member_card {
+    // padding: 12px;
+    border-radius: 24px;
+
+    &:hover {
+      h4 {
+        color: #8920EC;
+        transition: all 0.5s ease-out;
+      }
+    }
+    
+    .member_img-container {
+      background-color: #F7F4FB;
+      border-radius: 12px;
+      padding-top: 20px;
+    }
+    .member_content-container {
+      padding: 12px;
+      margin-top: 20px;
+    }
+
+    img {
+      max-width: 265px;
+    }
+  
+    h4 {
+      font-family: "DisplaySoraBold";
+      line-height: 1.4;
+      font-size: 24px;
+      color: #011132;
+      transition: all 0.5s ease-out;
+    }
+    
+    p {
+      font-family: "DisplayDMSansNormal";
+      line-height: 1.3;
+      font-size: 18px;
+      margin: 10px auto;
+    }
+
+    .socials {
+      margin-top: 20px;
+
+      li {
+        background-color: #F7F4FB;
+        padding: 10px 33px;
+      }
+    }
+
+  }
+  
+  .join-container {
+    margin-top: 50px;
+
+    h3 {
+      font-family: "DisplaySoraNormal";
+      line-height: 1.2;
+      font-size: 32px;
+      color: #011132;
+    }
+
+    .btn {
+      font-family: "DisplaySoraSemiBold";
+      line-height: 1.2;
+      font-size: 14px;
+      background-color: #8920EC;
+      padding: 14px 30px 15px;
+      border: 1px solid #8920EC;
+      border-radius: 8px;
+      min-width: 166px;
+      color: #fff;
+      margin-top: 40px;
+  
+      &:hover,
+      &:focus {
+        background-color: transparent;
+        color: #8920EC;
+        border-color: #8920EC;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    margin: 80px 0 60px;
+
+    h2 {
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    .join-container {
+      margin-top: 30px;
+    }
+    .btn {
+      margin-top: 20px !important;
+    }
+  }
+}
