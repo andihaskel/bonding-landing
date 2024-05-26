@@ -1,9 +1,9 @@
-import React, { useState, useRef } from 'react'
-import { delay, motion, useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion';
+import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
-import './whatwedo.scss'
-import Computer from '/andib-service-1.svg'
-import IdCard from '/andib-service-2.svg'
+import './whatwedo.scss';
+import Computer from '/andib-service-1.svg';
+import IdCard from '/andib-service-2.svg';
 
 const variants = {
   initial: {
@@ -37,7 +37,7 @@ const WhatWeDo = () => {
       <Container>
         <motion.div className='title-container'>
           <h2>Our Services</h2>
-          <p>There are many variations of passages of Lorem Ipsum availablebut the majority have suffered alteration in some form.</p>
+          {/* <p>There are many variations of passages of Lorem Ipsum availablebut the majority have suffered alteration in some form.</p> */}
         </motion.div>
 
         <motion.div className="row" >

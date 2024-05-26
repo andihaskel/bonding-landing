@@ -1,14 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react'
-import { delay, motion, useInView } from 'framer-motion'
+import { motion } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
-import './howWeWork.scss'
-import ScheduleImg from '/andib-schedule.svg'
-import Product_Discovery from '/Product_Discovery.svg'
-import UxUi from '/UXUI.svg'
+import './howWeWork.scss';
+import Development from '/andib-development.svg';
+import ScheduleImg from '/andib-schedule.svg';
+import Checklist from '/Checklist-icon.svg';
 // import Qa from '/QA.svg'
-import Launch from '/Launch.svg'
-import Development from '/andib-development.svg'
-import Checklist from '/Checklist-icon.svg'
+import Launch from '/Launch.svg';
+import Product_Discovery from '/Product_Discovery.svg';
+import UxUi from '/UXUI.svg';
 
 
 const HowWeWork = () => {
@@ -78,7 +78,9 @@ const HowWeWork = () => {
       <Container>
         <div className='title-container'>
           <h2>This is how we work</h2>
-          <p>We leverage the principles of Scrum methodology to effectively manageour dynamic teams, emphasizing efficiency and excellence. Through this agile approach, we foster seamless team work, flexibility, and punctual delivery of outstanding app development projects.</p>
+          <p>We leverage the principles of Scrum methodology to effectively manageour dynamic teams, emphasizing efficiency and excellence. 
+             {/* this agile approach, we foster seamless team work, flexibility, and punctual delivery of outstanding app development projects. */}
+             </p>
         </div>
         
         <div className='progress-bar-container'>

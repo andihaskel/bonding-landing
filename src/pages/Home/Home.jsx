@@ -1,11 +1,10 @@
 import React from 'react'
-import Hero from '../../components/hero/Hero'
-import WhatWeDo from '../../components/whatwedo/WhatWeDo'
-import HowWeWork from '../../components/howWeWork/HowWeWork'
-import RecentProjects from '../../components/recentProjects/RecentProjects'
-import OurTeam from '../../components/ourTeam/OurTeam'
-import OurServices from '../../components/ourServices/OurServices'
 import Contact from '../../components/contact/Contact'
+import Hero from '../../components/hero/Hero'
+import HowWeWork from '../../components/howWeWork/HowWeWork'
+import OurTeam from '../../components/ourTeam/OurTeam'
+import RecentProjects from '../../components/recentProjects/RecentProjects'
+import WhatWeDo from '../../components/whatwedo/WhatWeDo'
 
 const Home = () => {
   return (
@@ -25,9 +24,9 @@ const Home = () => {
       <section id="OurTeam">
         <OurTeam />
       </section>
-      <section id="OurServices">
+      {/* <section id="OurServices">
         <OurServices />
-      </section>
+      </section> */}
       <section id="Contact">
         <Contact />
       </section>

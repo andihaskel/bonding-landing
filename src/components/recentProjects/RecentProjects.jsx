@@ -1,17 +1,17 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { delay, motion, useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion';
+import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
-import ProjectOne from '/andib-project-1a.webp'
-import ProjectTwo from '/andib_project_2.webp'
-
-import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './recentProjects.scss';
+import ProjectOne from '/andib-project-1a.webp';
+import ProjectTwo from '/andib_project_2.webp';
 
-import './recentProjects.scss'
+
 
 const RecentProjects = () => {
 
@@ -20,16 +20,16 @@ const RecentProjects = () => {
 
   const projects = [
     { 
-      text: '“Our experience working with the company has been nothing short of exceptional. Their expertise and dedication have had a positive impact on our projects, delivering outstanding results.”',
-      title: 'Site Travel',
-      author: 'Emily Johnson',
+      text: 'Mobile application that allows pharmacies and pharmacists to create and apply for work shifts with a competitive salary. It streamlines the process of finding and scheduling temporary staff. This ensures that pharmacies can maintain optimal staffing levels and provide excellent service to their customers.',
+      title: 'Look4shifts',
+      author: 'Tech stack: Flutter, React.js, Nest,js, PostgreSQL, AWS services',
       link: '#',
       img: ProjectOne
     },
     { 
-      text: '“Our experience working with the company has been nothing short of exceptional. Their expertise and dedication have had a positive impact on our projects, delivering outstanding results.”',
-      title: 'Site Travel 2',
-      author: 'Emily Johnson 2',
+      text: 'System designed for the management and maintenance of parking facilities. It allows real-time reporting of incidents and failures and assigns responsible parties for their repair. This ensures that parking facilities remain functional and safe for all users.',
+      title: 'Park Order',
+      author: 'Tech stack: React.js, Nest.js, PostgreSQL, AWS services.',
       link: '#',
       img: ProjectTwo
     },
@@ -76,7 +76,7 @@ const RecentProjects = () => {
             className='title-container text-center'
           >
             <motion.h2>Our Recent Projects</motion.h2>
-            <motion.p>There are many variations of passages of Lorem Ipsum availablebut the majority have suffered alteration in some form.</motion.p>
+            {/* <motion.p>There are many variations of passages of Lorem Ipsum availablebut the majority have suffered alteration in some form.</motion.p> */}
           </motion.div>
 
           {projects.map((project, item) => (
@@ -85,14 +85,14 @@ const RecentProjects = () => {
               <motion.div 
                 className="col-12 col-md-6 order-2 order-md-1" 
               >
-                <motion.p>{project.text}</motion.p>
                 <motion.h4>{project.title}</motion.h4>
                 <motion.p className='author'>{project.author}</motion.p>
+                <motion.p>{project.text}</motion.p>
                 <hr />
-                <motion.a 
+                {/* <motion.a 
                   className='position-relative' 
                   href={project.link} 
-                >Read More</motion.a>
+                >Read More</motion.a> */}
               </motion.div>
               <motion.div className="col-12 col-md-6 order-1 order-md-2">
                 <div className='img-container position-relative text-center mb-2 mb-md-0'>

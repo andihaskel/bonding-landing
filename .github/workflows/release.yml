@@ -50,4 +50,4 @@ jobs:
         run: npm install -g pm2
         
       - name: Serve application with PM2
-        run: serve -s dist
+        run: pm2 serve dist 3000 --name "mi-aplicacion"

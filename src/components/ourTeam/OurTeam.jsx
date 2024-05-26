@@ -1,12 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { delay, motion, useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion';
+import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
-import './ourTeam.scss'
-import Andres_Haskel from '/team-1.webp'
-import Gabriel_Bursztein from '/team-2.webp'
-import Michael_Brown from '/Michael_Brown.webp'
-import TwitterIcon from '/twitter.svg'
-import LinkedinIcon from '/linkedin.svg'
+import './ourTeam.scss';
+import LinkedinIcon from '/linkedin.svg';
+import Andres_Haskel from '/team-1.webp';
+import Gabriel_Bursztein from '/team-2.webp';
+import TwitterIcon from '/twitter.svg';
 
 const OurTeam = () => {
 
@@ -19,8 +18,8 @@ const OurTeam = () => {
       name: 'Andres Haskel',
       title: 'CEO',
       text: 'Lorem ipsum dolor sit amet consectetur. Id turpis maecenas nunc imperdiet sed ultricies mi. Elementum nulla nec netus cursus vel tempor nisl. Egestas.',
-      twitterLink: '#',
-      linkedinLink: '#',
+      twitterLink: 'https://twitter.com/AndresHaskel',
+      linkedinLink: 'https://www.linkedin.com/in/andreshaskel/',
     },
     { 
       img: Gabriel_Bursztein,
@@ -28,7 +27,7 @@ const OurTeam = () => {
       title: 'CTO',
       text: 'Lorem ipsum dolor sit amet consectetur. Id turpis maecenas nunc imperdiet sed ultricies mi. Elementum nulla nec netus cursus vel tempor nisl. Egestas.',
       twitterLink: '#',
-      linkedinLink: '#',
+      linkedinLink: 'https://www.linkedin.com/in/gabrielbursztein/',
     },
     // { 
     //   img: Michael_Brown,

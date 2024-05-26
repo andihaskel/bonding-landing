@@ -1,17 +1,16 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
-import './app.scss'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import '../src/assets/fonts/fonts.scss'
-import NavbarComponent from "./components/navbar/NavbarComponent"
+import './app.scss'
 import Footer from './components/footer/Footer'
-import Home from './pages/Home/Home'
-import Services from './pages/services/Services'
+import NavbarComponent from "./components/navbar/NavbarComponent"
 import Benefits from './pages/benefits/Benefits'
-import Portfolio from './pages/portfolio/Portfolio'
-import Testimonials from './pages/testimonials/Testimonials'
-import OurTeam from './pages/ourteam/OurTeam'
 import Contact from './pages/contact/Contact'
-import SingleService from './pages/singleService/SingleService';
-import Cursor from './components/cursor/Cursor'
+import Home from './pages/Home/Home'
+import OurTeam from './pages/ourteam/OurTeam'
+import Portfolio from './pages/portfolio/Portfolio'
+import Services from './pages/services/Services'
+import SingleService from './pages/singleService/SingleService'
+import Testimonials from './pages/testimonials/Testimonials'
 
 function App() {
   return (

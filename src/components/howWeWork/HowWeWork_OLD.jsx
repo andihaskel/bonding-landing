@@ -1,13 +1,13 @@
-import React, { useState, useRef } from 'react'
-import { delay, motion, useInView } from 'framer-motion'
+import { motion, useInView } from 'framer-motion';
+import React, { useRef, useState } from 'react';
 import Container from 'react-bootstrap/Container';
-import './howWeWork.scss'
-import ScheduleImg from '/andib-schedule.svg'
-import Product_Discovery from '/Product_Discovery.svg'
-import UxUi from '/UXUI.svg'
-import Qa from '/QA.svg'
-import Launch from '/Launch.svg'
-import Development from '/Development.svg'
+import './howWeWork.scss';
+import ScheduleImg from '/andib-schedule.svg';
+import Development from '/Development.svg';
+import Launch from '/Launch.svg';
+import Product_Discovery from '/Product_Discovery.svg';
+import Qa from '/QA.svg';
+import UxUi from '/UXUI.svg';
 
 const HowWeWork = () => {
 
