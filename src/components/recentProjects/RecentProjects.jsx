@@ -128,7 +128,7 @@ const RecentProjects = () => {
                       <h4>{project.title}</h4>
                       <p className='author'>{project.author}</p>
                       <hr />
-                      <a className='position-relative' href={project.link}>Read More</a>
+                      {/* <a className='position-relative' href={project.link}>Read More</a> */}
                     </div>
                     <div className="col-12 col-md-6 order-1">
                       <div className='img-container position-relative text-center mb-2 mb-md-0'>
