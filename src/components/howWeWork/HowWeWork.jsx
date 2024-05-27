@@ -78,7 +78,7 @@ const HowWeWork = () => {
       <Container>
         <div className='title-container'>
           <h2>This is how we work</h2>
-          <p>We leverage the principles of Scrum methodology to effectively manageour dynamic teams, emphasizing efficiency and excellence. 
+          <p>We leverage the principles of Scrum methodology to effectively manage our dynamic teams, emphasizing efficiency and excellence. 
              {/* this agile approach, we foster seamless team work, flexibility, and punctual delivery of outstanding app development projects. */}
              </p>
         </div>
@@ -125,7 +125,8 @@ const HowWeWork = () => {
                     <h3>Schedule a Free Consultation Call</h3>
                     <p>Let's discuss your goals, challenges, and how we can help you succeed. Book your slot now!</p>
                     <motion.a 
-                      href="#Contact"
+                      href="https://calendly.com/andres-haskel/introduction-call?back=1&month=2024-05"
+                      target="_blank"
                       className='btn'
                     >
                       Let’s Talk

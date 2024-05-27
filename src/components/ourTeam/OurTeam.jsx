@@ -2,10 +2,8 @@ import { motion, useInView } from 'framer-motion';
 import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import './ourTeam.scss';
-import LinkedinIcon from '/linkedin.svg';
 import Andres_Haskel from '/team-1.webp';
 import Gabriel_Bursztein from '/team-2.webp';
-import TwitterIcon from '/twitter.svg';
 
 const OurTeam = () => {
 
@@ -17,7 +15,7 @@ const OurTeam = () => {
       img: Andres_Haskel,
       name: 'Andres Haskel',
       title: 'CEO',
-      text: 'Lorem ipsum dolor sit amet consectetur. Id turpis maecenas nunc imperdiet sed ultricies mi. Elementum nulla nec netus cursus vel tempor nisl. Egestas.',
+      text: '+10 years of experience working as an independent engineer as well as in large corporations. Committed to delivering high-quality solutions.',
       twitterLink: 'https://twitter.com/AndresHaskel',
       linkedinLink: 'https://www.linkedin.com/in/andreshaskel/',
     },
@@ -94,7 +92,7 @@ const OurTeam = () => {
                   <motion.h4 variants={imageVariants}>{member.name}</motion.h4>
                   <motion.p variants={imageVariants}>{member.title}</motion.p>
                   <motion.p variants={imageVariants}>{member.text}</motion.p>
-                  <ul className='socials d-flex align-items-center justify-content-evenly'>
+                  {/* <ul className='socials d-flex align-items-center justify-content-evenly'>
                     <motion.li >
                       <a href={member.twitterLink}>
                         <motion.img 
@@ -113,7 +111,7 @@ const OurTeam = () => {
                         />
                       </a>
                     </motion.li>
-                  </ul>
+                  </ul> */}
                 </div>
               </motion.div>
             </motion.div>
