@@ -78,7 +78,7 @@ const OurTeam = () => {
         <motion.div 
           className='title-container text-center' 
         >
-          <motion.h2>Meet Our Team</motion.h2>
+          <motion.h2>Meet Our Founders</motion.h2>
         </motion.div>
 
         <motion.div 

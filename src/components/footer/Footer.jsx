@@ -3,10 +3,6 @@ import React, { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import './footer.scss';
 import LogoB from '/Bonding_logo.svg';
-import FacebookIcon from '/facebook_w.svg';
-import InstagramIcon from '/instagram_w.svg';
-import linkedinIcon from '/linkedin_w.svg';
-import YoutubeIcon from '/youtube_w.svg';
 
 const Footer = () => {
 
@@ -59,10 +55,10 @@ const Footer = () => {
                   <motion.img src={LogoB} alt="Bonding"  />
                 </a>
               </div>
-              <motion.a 
+              {/* <motion.a 
                 className='btn secondary mt-3 mb-3' 
                 href="#Contact" 
-              >Let’s Talk</motion.a>
+              >Let’s Talk</motion.a> */}
               {/* <motion.p >Lorem ipsum dolor sit amet consectetur. Id turpis maecenas nunc imperdiet sed ultricies mi. Elementum nulla nec netus cursus vel tempor nisl. Egestas.</motion.p> */}
             </div>
             <div className="col-12 col-md-6 offset-md-1 position-relative">
@@ -97,7 +93,7 @@ const Footer = () => {
                 </div>
               </motion.div>
 
-              <motion.ul className='socials_footer'>
+              {/* <motion.ul className='socials_footer'>
                 <motion.li>
                   <a href="#">
                     <motion.div className='social_icon_box' 
@@ -138,7 +134,7 @@ const Footer = () => {
                     </motion.div>
                   </a>
                 </motion.li>
-              </motion.ul>
+              </motion.ul> */}
             </div>
           </motion.div>
         </motion.div>

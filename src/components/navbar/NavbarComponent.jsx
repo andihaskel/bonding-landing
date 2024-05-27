@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import { delay, motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import './NavbarComponent.scss'
+import './NavbarComponent.scss';
+import Logo from '/Bonding_logo.svg';
 
-import Logo from '/Bonding_logo.svg'
 
 
 const NavbarComponent = () => {
@@ -55,13 +55,13 @@ const NavbarComponent = () => {
                       >
                         Portfolio
                       </motion.span></Nav.Link>
-                    <Nav.Link href="#">
+                    <Nav.Link href="#OurTeam">
                       <motion.span 
                         initial={{ opacity: 0, scale: 0.5 }}
                         animate={{ opacity: 1, scale: 0.5 }}
                         transition={{ duration: 3 }}
                       >
-                        Testimonials
+                        Our Team
                         </motion.span></Nav.Link>
                     <Nav.Link className='btn' href="#Contact">
                       <motion.span className='extend'
