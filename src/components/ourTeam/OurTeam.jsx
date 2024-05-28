@@ -23,7 +23,7 @@ const OurTeam = () => {
       img: Gabriel_Bursztein,
       name: 'Gabriel Bursztein',
       title: 'CTO',
-      text: '10+ years of experience as a detail-oriented engineer, dedicated to achieving the highest quality products. Committed to continuous improvement and excellence, ensuring our technology strategies align with our business goals.',
+      text: 'Passionate about technology and innovation, I bring over 8 years of experience to the table. My goal is to help businesses grow by turning visionary ideas into tangible products.',
       twitterLink: '#',
       linkedinLink: 'https://www.linkedin.com/in/gabrielbursztein/',
     },
