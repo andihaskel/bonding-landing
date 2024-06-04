@@ -1,37 +1,7 @@
 .hero {
   background-color: #011132;
   color: #fff;
-  // padding: 50px 0 0;
   
-
-  
-  // .main_row {
-  //   justify-content: center;
-
-  //   @media (max-width: 992px) {
-  //     justify-content: space-around ;
-  //     height: 100%;
-  //   }
-  // }
-
-  // .wrapper_title_container {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // position: relative;
-    // margin-bottom: 0px !important;
-    // top: -80px;
-
-    // @media (min-width: 321px) and (max-height: 660px) {
-    //   top: -80px;
-    // }
-
-    // @media (min-width: 1200px) {
-    //   top: 0;
-    // }
-
-  // }
-
   h1 {
     font-family: "DisplaySoraBold";
     line-height: 1.4;
@@ -47,57 +17,21 @@
     margin: 20px 0;
   }
 
-  // .img-container {
-  //   bottom: 0;
-  //   position: absolute;
-  //   top: auto;
-  //   left: 0;
-  //   max-width: 97%;
-
-    // @media (min-width: 992px) and (max-width: 1170px) {
-    //   max-width: 50%;
-    // }
-    // @media (min-width: 800px) and (max-width: 991px) {
-    //   width: 100vw;
-    //   left: 10%;
-    // }
-    // @media (min-width: 898px) and (max-width: 992px) {
-    //   width: 57vw;
-    //   left: 15%;
-    // }
-    // @media (min-width: 776px) and (max-width: 897px) {
-    //   width: 65vw;
-    //   left: 12%;
-    // }
-    // @media (min-width: 576px) and (max-width: 676px) {
-    //   width: 80vw;
-    //   left: 4%;
-    // }
-    // @media (min-width: 676px) and (max-width: 775px) {
-    //   width: 75vw;
-    //   left: 4%;
-    // }
-    // @media (min-width: 375px) and (max-height: 763px) {
-    //   width: 85vw;
-    // }
-    // @media (min-width: 350px) and (max-height: 635px) {
-    //   width: 70vw;
-    //   left: 10%;
-    // }
-    // @media (max-width: 360px) and (min-height: 640px) {
-    //   width: 67vw;
-    //   left: 17%;
-    // }
-
-    // img {
-    //   max-width: 100%;
-    //   width: 100%;
-    //   height: auto;
-    // }
-  // }
+  .right-container{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: center; /* Alinea horizontalmente (opcional) */
+    padding-left: 0px;
+    
+    @media (min-width: 575px) {
+      max-height: 440px;
+    }
+  }
 
   .inner_container {
-    position: relative;
+    // position: relative;
 
     .hero_img {
       position: absolute;
@@ -106,8 +40,8 @@
         min-width: 640px;
       }
       &.flutterIcon {
-        top: 82px;
-        left: 135px;
+        top: 90px;
+        left: 0px;
       }
       &.htmlIcon {
         top: 0;
@@ -132,119 +66,47 @@
       }
       &.nodeIconFive {
         top: 50px;
-        right: -45px;
+        width: 30%;
+        right: 6px;
       }
-      // @media (max-width: 390px) and (max-height: 689px) {
-      //   width: 70vw;
-      //   left: 12%;
-      // }
-      // @media (min-width: 992px) and (max-width: 1170px) {
-      //   &.nodeIconFive {
-      //     max-width: 40%;
-      //   }
-      //   &.nodeIconFour {
-      //     top: 175px;
-      //   }
-      // }
-      // @media (min-width: 898px) and (max-width: 992px) {
-      //   &.nodeIconFive {
-      //     top: 75px;
-      //   }
-      // }
-      // @media (min-width: 769px) and (max-width: 991px) {
-      //   &.nodeIconThree {
-      //     right: 40px;
-      //   }
-      //   &.nodeIconFour {
-      //     top: 200px;
-      //     right: 95px;
-      //   }
-      // }
-      // @media (min-width: 776px) and (max-width: 897px) {
-      //   &.nodeIconFour {
-      //     top: 180px;
-      //     right: 70px;
-      //   }
-      // }
-      // @media (min-width: 769px) and (max-width: 800px) {
-      //   &.nodeIconFive {
-      //     left: 400px;
-      //     top: 70px;
-      //   }
-      // }
+     
       @media (max-width: 575px) {
-        &.htmlIcon {
-          left: 10px;
+        &.nodeIconOne{
+          top: -25px;
+          left: 15px;
+          width: 12%;
         }
+        &.flutterIcon{
+          top: 60px;
+          left: 22px;
+          width: 12%;
+        }
+
+        &.nodeIconTwo{
+          top: -42px;
+          left: 143px;
+        }
+
+        &.nodeIconThree{
+          top: -27px;
+          right: 45px;
+        }
+
         &.flutterIcon,
         &.nodeIconOne,
         &.nodeIconTwo,
         &.nodeIconThree,
         &.nodeIconFour {
-          max-width: 12%;
+          width: 12%;
         }
-        &.flutterIcon {
-          top: 55px;
-          left: 85px;
-        }
-        &.nodeIconOne {
-          top: -30px;
-          left: 0;
-        }
-        &.nodeIconTwo{
-          top: -40px;
-          left: 140px;
-        }
-        &.nodeIconThree {
-          top: -35px;
-          right: 30px;
-        }
-        &.nodeIconFour {
-          // top: 160px;
-          // right: 95px;
-          top: 115px;
-          right: 65px;
+        &.htmlIcon {
+          width: 35%;
         }
         &.nodeIconFive {
           top: 35px;
-          right: -5px;
+          right: 10px;
         }
       }
-      // @media (min-width: 576px) and (max-width: 676px) {
-      //   &.flutterIcon,
-      //   &.nodeIconOne,
-      //   &.nodeIconTwo,
-      //   &.nodeIconThree,
-      //   &.nodeIconFour {
-      //     max-width: 10%;
-      //   }
-
-      //   &.nodeIconFour {
-      //     top: 155px;
-      //     right: 85px;
-      //   }
-        
-      // }
-      // @media (max-width: 360px) and (min-height: 640px) {
-      //   &.flutterIcon {
-      //     top: 35px;
-      //     left: 65px;
-      //   }
-      //   &.nodeIconFive {
-      //     top: 30px;
-      //     right: -5px;
-      //   }
-      //   &.nodeIconFour {
-      //     top: 80px;
-      //     right: 40px;
-      //   }
-      // }
-      // @media (min-width: 375px) and (max-height: 736px) {
-      //   &.nodeIconFour {
-      //     top: 100px;
-      //     right: 50px;
-      //   }
-      // }
     }
 
     
@@ -252,9 +114,6 @@
       img {
         width: auto;
       }
-      // .hero_img {
-      //   max-width: 35%;
-      // }
     }
   }
 
@@ -308,15 +167,6 @@
   @media (min-width: 375px) and (max-height: 736px) {
     padding-top: 0;
 
-    // .wrapper_title_container {
-    //   margin-bottom: 280px !important;
-    // }
-    // .img-container {
-    //   // max-width: 90%;
-    //   // left: 7%;
-    //   max-width: 70%;
-    //   left: 14%;
-    // }
     .btn-container {
       .btn {
         min-width: auto !important;
@@ -344,89 +194,48 @@
     }
     
     .wrapper_title_container {
-      margin: 60px 0 120px;
+      margin: 60px 0 80px;
     }
-    // .hero {
-    //   .container {
-    //     height: 100%;
-    //   }
-    //   .main_row {
-    //     justify-content: space-around ;
-    //     height: 100%;
-    //   }
-    // }
   }
   
-  @media (min-width: 320px) {
-    .bigIcon {
-      max-width: 100%;
-    }
-    .hero_img {
-      &.htmlIcon,
-      &.nodeIconFive {
-        max-width: 35%;
-      }
-    }
-  }
-
   @media (min-width: 376px) {
     h1 {
       font-size: 38px ;
     }
   }
 
-  @media (min-width: 576px) and (max-width: 799px) {
-    .hero_img {
-      &.flutterIcon,
-      &.nodeIconOne,
-      &.nodeIconTwo,
-      &.nodeIconThree,
-      &.nodeIconFour {
-        max-width: 12%;
-      }
-      &.nodeIconFive {
-        top: 50px;
-        right: 0 !important;
-      }
-      &.nodeIconFour {
-        right: 280px;
-      }
-      &.nodeIconThree {
-        right: 200px;
-      }
-    }
-  }
-  @media (min-width: 650px) and (max-width: 799px) {
-    .hero_img {
-      &.nodeIconFour {
-        right: 130px !important;
-      }
-    }
-  }
 
-  @media (min-width: 800px) and (max-width: 992px) {
-    .inner_container {
-      left: 7%;
+  // @media (min-width: 650px) and (max-width: 799px) {
+  //   .hero_img {
+  //     &.nodeIconFour {
+  //       right: 130px !important;
+  //     }
+  //   }
+  // }
 
-      .hero_img {
-        &.nodeIconFive {
-          top: 50px;
-          right: 115px;
-        }
-        &.nodeIconFour {
-          right: 280px;
-        }
-        &.nodeIconThree {
-          right: 200px;
-        }
-      }
-    }
-  }
+  // @media (min-width: 800px) and (max-width: 992px) {
+  //   .inner_container {
+  //     left: 7%;
+
+  //     .hero_img {
+  //       &.nodeIconFive {
+  //         top: 50px;
+  //         right: 115px;
+  //       }
+  //       &.nodeIconFour {
+  //         right: 280px;
+  //       }
+  //       &.nodeIconThree {
+  //         right: 200px;
+  //       }
+  //     }
+  //   }
+  // }
 
   @media (min-width: 992px) and (max-width: 1110px) {
-    .img-container {
-      max-width: 50%;
-    }
+    // .img-container {
+      // max-width: 50%;
+    // }
     .inner_container {
       .hero_img {
         &.nodeIconFive {
@@ -437,41 +246,18 @@
         }
       }
     }
-    }
+  }
+
   @media (min-width: 992px) {
     padding: 0;
-    // height: calc(100vh - 76px);
-    // padding: 20px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: calc(100vh - 76px);
 
-    // .container {
-    //   // height: 100%;
-  
-    //   @media (min-width: 992px) {
-    //     height: auto;
-    //   }
-    // }
-
     h1 {
       font-size: 58px;
     }
-
-    // .img-container {
-      // bottom: 0;
-      // position: absolute;
-      // top: auto;
-      // left: 0;
-      // max-width: 97%;
-
-      // img {
-      //   max-width: 100%;
-      //   width: 100%;
-      //   height: auto;
-      // }
-    // }
 
     .img-container {
       position: absolute;
@@ -487,20 +273,31 @@
         height: auto;
       }
     }
-    .hero_img {
-      &.htmlIcon,
-      &.nodeIconFive {
-        max-width: 100%;
-      }
-    }
+    // .hero_img {
+      // &.htmlIcon,
+      // &.nodeIconFive {
+      //   max-width: 100%;
+      // }
+    // }
   }
   @media (min-width: 1200px) {
     h1 {
-      // font-size: 65px;
       font-size: 80px;
     }
     p {
       font-size: 27px;
+    }
+
+    // .icons-container {
+    //   max-height: 440px;
+    // }
+
+    .hero_img {
+      &.nodeIconFive {
+        width: 30%;
+        right: 6px;
+        // right: 115px;
+      }
     }
   }
 }
