@@ -80,7 +80,7 @@ const OurTeam = () => {
         </motion.div>
 
         <motion.div 
-          className="row align-items-center justify-content-center"
+          className="row justify-content-center"
         >
           {teamMembers.map((member, item) => (
             <motion.div className="col-12 col-md-6 col-lg-4 text-center mb-4 mb-lg-0" key={item}>
