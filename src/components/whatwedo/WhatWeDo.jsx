@@ -47,7 +47,7 @@ const WhatWeDo = () => {
                 <img className='first-img' src={Computer} alt="" />
               </div>
               <h3>Full Product Development</h3>
-              <p>Covers everything from concept to launch. We provide end-to-end development services covering everything from UX/UI design, web and mobile development, infrastructure setup, QA testing, and ongoing maintenance.</p>
+              <p>Our end-to-end development services cover every aspect from concept to launch, including UX/UI design, web and mobile development, infrastructure setup, QA testing, and ongoing maintenance.</p>
             </motion.div>
           </motion.div>
           <motion.div className="col-12 col-lg-6">

@@ -90,7 +90,7 @@ const Contact = () => {
               className='title-container'
             >
               <h2>Contact Now</h2>
-              <p>I would love to talk to you about your project or needs. Fill in the form or send us an email to <a href='mailto:hello@bonding.dev'>hello@bonding.dev</a></p>
+              <p>We would love to talk to you about your project or needs. Fill in the form or send us an email to <a href='mailto:hello@bonding.dev'>hello@bonding.dev</a></p>
             </motion.div>
 
             <motion.div 
