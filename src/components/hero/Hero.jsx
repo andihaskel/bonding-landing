@@ -53,7 +53,7 @@ const Hero = () => {
           <motion.div className="wrapper_title_container col-lg-6 col-xl-7">
             <div className='title-container'>
               <motion.h1>Strong Bonds, <br /> Stronger Products  </motion.h1>
-              <motion.p>Our nearshore software development teams deliver user-oriented design, top-level development, and scalable technology to bring your idea to life.</motion.p>
+              <motion.p>Our nearshore software development teams deliver user-oriented design, top-level development and cutting-edge AI solutions to bring your idea to life.</motion.p>
               <ul className="btn-container d-flex align-items-center">
                 <motion.li>
                   <motion.a

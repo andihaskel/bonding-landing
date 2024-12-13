@@ -1,26 +1,10 @@
 import { motion, useInView } from 'framer-motion';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import Container from 'react-bootstrap/Container';
 import './whatwedo.scss';
-import Computer from '/andib-service-1.svg';
-import IdCard from '/andib-service-2.svg';
+import IdCard from '/ai-code.svg';
+import Computer from '/product-box.svg';
 
-const variants = {
-  initial: {
-    x: -200,
-    y: 100,
-    opacity: 0
-  },
-  animate: {
-    x: 0,
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 1,
-      staggerChildren: 0.1
-    }
-  }
-}
 
 const WhatWeDo = () => {
 
@@ -55,8 +39,8 @@ const WhatWeDo = () => {
               <div className="img-container">
                 <img className='second-img' src={IdCard} alt="" />
               </div>
-              <h3>Staff Augmentation</h3>
-              <p>From project-specific needs to long-term support, our flexible service provides top-tier talent on demand. Boost productivity, shorten timelines, and achieve cost-effective solutions tailored to your requirements.</p>
+              <h3>Custom AI Solutions</h3>
+              <p>Develop innovative AI-powered products by leveraging advanced machine learning techniques, natural language processing (NLP), and state-of-the-art computer vision services to deliver transformative solutions.</p>
             </motion.div>
           </motion.div>
         </motion.div>
